@@ -1,5 +1,5 @@
 {
-  "name": "DS-6.3",
+  "name": "DS-6.2",
   "build": {
     "dockerfile": "Dockerfile",
   },
@@ -20,5 +20,5 @@
 		]
 	}
 },
-"postStartCommand": "apt install -y mesa-utils-extra x11-apps"
+"postStartCommand": "apt install -y mesa-utils-extra"
 }
